@@ -19,6 +19,13 @@ no_index:
   directory:
     - inc
     - t
+requires:
+  Carp: 0
+  DBIx::Class: 0
+  DBIx::Class::Resultset: 0
+  DBIx::Class::Schema: 0
+  Module::Load: 0
+  Moo: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
