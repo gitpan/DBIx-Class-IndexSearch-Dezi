@@ -4,6 +4,7 @@ author:
   - 'Logan Bell, C<< <loganbell at gmail.com> >>'
   - 'Logan Bell <loganbell@gmail.com>'
 build_requires:
+  DBIx::Class::TimeStamp: 0
   ExtUtils::MakeMaker: 6.42
   Test::More: 0
 configure_requires:
@@ -22,10 +23,8 @@ no_index:
 requires:
   Carp: 0
   DBIx::Class: 0
-  DBIx::Class::Resultset: 0
-  DBIx::Class::Schema: 0
   Module::Load: 0
   Moo: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05
